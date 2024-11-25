@@ -1,6 +1,6 @@
 import CustomerItem from "@/components/sections/customer-item";
+import { transitions, variants, whileInView } from "@/lib/animations";
 import { CustomerType } from "@/types";
-import { whileInView, transitions, variants, animate } from "@/lib/animations";
 import { motion } from "motion/react";
 
 interface CreatorGalleryItemProps {
